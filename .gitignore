@@ -1,0 +1,15 @@
+﻿# macOS / notebook clutter
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# Model checkpoints and serialized binaries
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# Large local genomics inputs excluded from GitHub
+notebooks/TCGA-BRCA.star_tpm.tsv.gz
+notebooks/hg38.fa.gz
